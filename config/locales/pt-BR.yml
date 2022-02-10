@@ -1,0 +1,31 @@
+pt-BR:
+  activerecord:
+    models:
+      user: "Usuário"
+      comment: "Comentário"
+      
+    attributes:
+      default: &default
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+
+      post:
+        <<: *default
+        description: "Descrição"
+        photo: "foto"
+      
+      comment:
+        <<: *default
+        body: "Comentário"
+
+      user:
+        <<: *default
+        name: "Nome"
+        email: "Email"
+        password: "Senha"
+        password_confirmation: "Senha (confirmação)"
+
+  errors:
+    messages:
+      content_type_invalid: "Tipo de arquivo inválido"
+      file_size_out_of_range: "Arquivo muito grande (%{file_size}), o limite é 5MB"

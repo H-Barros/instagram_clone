@@ -1,0 +1,11 @@
+Estudar melhor o que é Helper
+
+data-flash-message="<%= JSON.dump(flash.to_a)%>" -> Isso foi adicionado direto na tag body, entender melhor como funciona
+
+Como funciona o active storage do rails?(é para guardar imagens)
+
+estudar melhor o has_many e o belongs_to
+
+ele usa o DOMContentLoaded no addEventListener, qual diferença isso faz?
+
+O que exatamente são websockets?
